@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <title>Publications · A. López López</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: #FAF8F3;
+      color: #1C1B18;
+      font-family: "Onest", "Corbel", sans-serif;
+      font-size: 17px;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    a {
+      color: #8E476E;
+      text-decoration-thickness: 1.5px;
+      text-underline-offset: 3px;
+      transition: color .18s;
+    }
+
+    a:hover {
+      color: #7A3C5E;
+    }
+
+    ::selection {
+      background: #A3527F;
+      color: #FAF8F3;
+    }
+
+    .pub-row {
+      display: grid;
+      grid-template-columns: 120px 1fr;
+      gap: 1.5rem;
+      padding: 1.1rem 0;
+      border-bottom: 1px solid rgb(228, 223, 211);
+    }
+
+    @media (max-width: 560px) {
+      .pub-row {
+        grid-template-columns: 1fr;
+        gap: 0.35rem;
+      }
+    }
+
+    .pub-meta {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 11.5px;
+      letter-spacing: 0.03em;
+      color: rgb(148, 139, 123);
+      line-height: 1.6;
+    }
+
+    .pub-meta span {
+      display: block;
+      color: rgb(163, 82, 127);
+    }
+
+    .pub-body {
+      font-size: 15.5px;
+      line-height: 1.55;
+    }
+
+    .pub-body em {
+      font-style: italic;
+      color: rgb(72, 67, 58);
+    }
+
+    .pub-links {
+      margin-top: 0.3rem;
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 11px;
+      letter-spacing: 0.04em;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.9rem;
+    }
+
+    .pub-links a {
+      color: #8E476E;
+      text-decoration: none;
+      border-bottom: 1px solid rgba(142, 71, 110, 0.35);
+      padding-bottom: 1px;
+    }
+
+    .pub-links a:hover {
+      color: #7A3C5E;
+      border-bottom-color: #7A3C5E;
+    }
+
+    .pub-status {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 11px;
+      letter-spacing: 0.04em;
+      color: rgb(148, 139, 123);
+    }
+
+    .note {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 11.5px;
+      line-height: 1.7;
+      color: rgb(110, 102, 86);
+      border-left: 2px solid #A3527F;
+      padding: 0.1rem 0 0.1rem 0.9rem;
+      margin: 0 0 2rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="dc-root">
+    <div style="min-height: 100vh;">
+      <header
+        style="position: sticky; top: 0px; z-index: 20; background: rgba(250, 248, 243, 0.86); backdrop-filter: blur(8px); border-bottom: 1px solid rgb(228, 223, 211);">
+        <div
+          style="max-width: 1080px; margin: 0px auto; padding: 15px clamp(1.5rem, 5vw, 4rem); display: flex; align-items: center; justify-content: space-between;">
+          <a href="index.html#top"
+            style='font-family: "IBM Plex Mono", monospace; font-size: 12.5px; letter-spacing: 0.12em; color: rgb(28, 27, 24); text-decoration: none;'><span
+              style="color: rgb(163, 82, 127);">◐</span> A. LÓPEZ LÓPEZ</a>
+          <nav
+            style='display: flex; gap: clamp(1rem, 2.5vw, 2rem); font-family: "IBM Plex Mono", monospace; font-size: 11.5px; letter-spacing: 0.13em; text-transform: uppercase;'>
+            <a href="index.html#now" style="text-decoration: none; color: rgb(110, 102, 86);">Now</a>
+            <a href="index.html#research" style="text-decoration: none; color: rgb(110, 102, 86);">Research</a>
+            <a href="index.html#pubs" style="text-decoration: none; color: rgb(110, 102, 86);">Publications</a>
+            <a href="index.html#contact" style="text-decoration: none; color: rgb(110, 102, 86);">Contact</a>
+          </nav>
+        </div>
+      </header>
+      <main style="max-width: 1080px; margin: 0px auto; padding: 0px clamp(1.5rem, 5vw, 4rem);">
+        <section style="padding: 4.5rem 0 2rem;">
+          <div
+            style='font-family: "IBM Plex Mono", monospace; font-size: 11.5px; letter-spacing: 0.1em; color: rgb(111, 132, 157);'>
+            ← <a href="index.html#pubs" style="color: rgb(111, 132, 157);">Back to home</a></div>
+          <h1
+            style="font-family: Onest, sans-serif; font-weight: 600; font-size: clamp(1.9rem, 4vw, 2.6rem); letter-spacing: -0.025em; margin: 14px 0 0;">
+            Publications</h1>
+          <p class="note">Conference PDFs are hosted on the AVS lab site and are for personal
+            use only. Papers later published in a journal are removed from that archive, so a
+            DOI link is given wherever one exists.</p>
+        </section>
+        <section style="padding: 0 0 3rem;">
+          <h2
+            style="font-family: Onest, sans-serif; font-weight: 600; font-size: clamp(1.3rem, 2.6vw, 1.7rem); letter-spacing: -0.02em; margin: 0 0 0.6rem;">
+            Journal Articles</h2>
+          <div class="pub-row">
+            <div class="pub-meta">2026<span>J. Astronaut. Sci.</span></div>
+            <div class="pub-body"><strong>A. López</strong>, J. Kulik, J. W. McMahon. <em>Observability Analysis of
+                Cislunar Angles-Only Navigation: Metrics, Geometry, and Filter Implications.</em>
+              <div class="pub-links"><span class="pub-status">In preparation</span></div>
+            </div>
+          </div>
+          <div class="pub-row">
+            <div class="pub-meta">2026<span>J. Astronaut. Sci.</span></div>
+            <div class="pub-body"><strong>A. López</strong>, J. W. McMahon, H. Schaub. <em>Square Root Filters for
+                Cislunar Angles-Only Relative Orbit Estimation.</em>
+              <div class="pub-links"><a href="https://doi.org/10.1007/s40295-026-00617-8" rel="noopener"
+                  target="_blank">DOI ↗</a></div>
+            </div>
+          </div>
+          <div class="pub-row">
+            <div class="pub-meta">2025<span>J. Spacecraft &amp; Rockets</span></div>
+            <div class="pub-body"><strong>A. López</strong>, H. Schaub. <em>Detecting Space Objects with Binary Wide
+                Field of View X-Ray Sensing.</em>
+              <div class="pub-links"><span class="pub-status">In review</span></div>
+            </div>
+          </div>
+          <div class="pub-row" style="border-bottom: none;">
+            <div class="pub-meta">2023<span>J. Spacecraft &amp; Rockets</span></div>
+            <div class="pub-body">J. Hammerl, <strong>A. López</strong>, Á. Romero Calvo, H. Schaub. <em>Touchless
+                Potential Sensing of Differentially-Charged Spacecraft Using X-Rays.</em>
+              <div class="pub-links"><a href="https://doi.org/10.2514/1.A35492" rel="noopener" target="_blank">DOI ↗</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section style="padding: 0 0 3rem;">
+          <h2
+            style="font-family: Onest, sans-serif; font-weight: 600; font-size: clamp(1.3rem, 2.6vw, 1.7rem); letter-spacing: -0.02em; margin: 0 0 0.6rem;">
+            Conference Papers</h2>
+          <div class="pub-row">
+            <div class="pub-meta">2026<span>AMOS</span></div>
+            <div class="pub-body"><strong>A. López</strong>, J. Kulik, J. W. McMahon. <em>Observability Considerations
+                for Cislunar Angles-Only Relative Navigation.</em> Maui, HI.<div class="pub-links"><a
+                  href="https://hanspeterschaub.info/Papers/Lopez2026.pdf" rel="noopener" target="_blank">PDF ↗</a>
+              </div>
+            </div>
+          </div>
+          <div class="pub-row">
+            <div class="pub-meta">2025<span>AAS/AIAA ASC</span></div>
+            <div class="pub-body"><strong>A. López</strong>, J. W. McMahon, H. Schaub. <em>Gaussian Mixture Square Root
+                Filters for Cislunar Angles-Only Relative Orbit Determination.</em> Boston, MA.<div class="pub-links"><a
+                  href="https://hanspeterschaub.info/Papers/L%C3%B3pez2025.pdf" rel="noopener" target="_blank">PDF ↗</a>
+              </div>
+            </div>
+          </div>
+          <div class="pub-row">
+            <div class="pub-meta">2024<span>SCTC</span></div>
+            <div class="pub-body"><strong>A. López</strong>, H. Schaub. <em>Touchless Time-Varying Electrostatic
+                Potential Sensing in Orbit: Fusion of X-ray and Electron Methods.</em> Avignon, France.<div
+                class="pub-links"><a href="https://hanspeterschaub.info/Papers/L%C3%B3pez2024.pdf" rel="noopener"
+                  target="_blank">PDF ↗</a></div>
+            </div>
+          </div>
+          <div class="pub-row">
+            <div class="pub-meta">2023<span>AMOS</span></div>
+            <div class="pub-body"><strong>A. López</strong>, H. Schaub. <em>Relative Orbit Estimation with Wide Field of
+                View Binary X-ray Sensing.</em> Maui, HI.<div class="pub-links"><a
+                  href="https://hanspeterschaub.info/Papers/Lopez2023a.pdf" rel="noopener" target="_blank">PDF ↗</a>
+              </div>
+            </div>
+          </div>
+          <div class="pub-row">
+            <div class="pub-meta">2023<span>AIAA SciTech</span></div>
+            <div class="pub-body">J. Hammerl, <strong>A. López</strong>, H. Schaub. <em>Electric Potential Estimation of
+                Inhomogeneous and Differentially Charged Objects Using X-Rays.</em> National Harbor, MD.<div
+                class="pub-links"><a href="https://doi.org/10.2514/6.2023-1398" rel="noopener" target="_blank">DOI
+                  ↗</a><a href="https://hanspeterschaub.info/Papers/Hammerl2023.pdf" rel="noopener" target="_blank">PDF
+                  ↗</a></div>
+            </div>
+          </div>
+          <div class="pub-row">
+            <div class="pub-meta">2023<span>AIAA SciTech</span></div>
+            <div class="pub-body"><strong>A. López</strong>, J. Hammerl, H. Schaub. <em>Dynamic Detection of Nearby
+                Space Objects with Binary Wide Field of View X-Ray Sensing.</em> National Harbor, MD.<div
+                class="pub-links"><a href="https://doi.org/10.2514/6.2023-1397" rel="noopener" target="_blank">DOI
+                  ↗</a><a href="https://hanspeterschaub.info/Papers/Lopez2023.pdf" rel="noopener" target="_blank">PDF
+                  ↗</a></div>
+            </div>
+          </div>
+          <div class="pub-row">
+            <div class="pub-meta">2022<span>AAS/AIAA ASC</span></div>
+            <div class="pub-body"><strong>A. López</strong>, J. Hammerl, H. Schaub. <em>Detecting Space Objects with
+                Binary Wide Field of View X-Ray Sensing.</em> Charlotte, NC.<div class="pub-links"><a
+                  href="https://hanspeterschaub.info/Papers/Lopez2022.pdf" rel="noopener" target="_blank">PDF ↗</a>
+              </div>
+            </div>
+          </div>
+          <div class="pub-row">
+            <div class="pub-meta">2022<span>SCTC</span></div>
+            <div class="pub-body">J. Hammerl, <strong>A. López</strong>, Á. Romero Calvo, H. Schaub. <em>Measuring
+                Multiple Potentials of a Rotating and Differentially-Charged Object Simultaneously Using X-Rays.</em>
+              Virtual.<div class="pub-links"><a href="https://hanspeterschaub.info/Papers/Hammerl2022d.pdf"
+                  rel="noopener" target="_blank">PDF ↗</a></div>
+            </div>
+          </div>
+          <div class="pub-row">
+            <div class="pub-meta">2022<span>AIAA SciTech</span></div>
+            <div class="pub-body">J. Hammerl, Á. Romero Calvo, <strong>A. López</strong>, H. Schaub. <em>Touchless
+                Potential Sensing of Complex Differentially-Charged Shapes Using X-Rays.</em> San Diego, CA.<div
+                class="pub-links"><a href="https://doi.org/10.2514/6.2022-2312" rel="noopener" target="_blank">DOI
+                  ↗</a><a href="https://hanspeterschaub.info/Papers/Hammerl2022.pdf" rel="noopener" target="_blank">PDF
+                  ↗</a></div>
+            </div>
+          </div>
+          <div class="pub-row" style="border-bottom: none;">
+            <div class="pub-meta">2020<span>SPIE</span></div>
+            <div class="pub-body">Carnicero Domínguez et al. (incl. <strong>A. López</strong>). <em>GEOBS: Medium
+                Spatial Resolution Optical Instrument Concept for Disaster and Security Monitoring from GEO.</em>
+              Virtual.<div class="pub-links"><a href="https://doi.org/10.1117/12.2573805" rel="noopener"
+                  target="_blank">DOI ↗</a></div>
+            </div>
+          </div>
+        </section>
+        <section style="padding: 0 0 4rem;">
+          <h2
+            style="font-family: Onest, sans-serif; font-weight: 600; font-size: clamp(1.3rem, 2.6vw, 1.7rem); letter-spacing: -0.02em; margin: 0 0 0.6rem;">
+            Conference Presentations (Presentation Only)</h2>
+          <div class="pub-row">
+            <div class="pub-meta">2025<span>Binaries in the Solar System VI</span></div>
+            <div class="pub-body"><strong>A. López</strong>, J. W. McMahon, H. Schaub. <em>Parametric Investigation into
+                Orbit Stability of Small Trojan Binaries.</em> Nice, France.
+              <div class="pub-links"><span class="pub-status">Presentation only</span></div>
+            </div>
+          </div>
+          <div class="pub-row" style="border-bottom: none;">
+            <div class="pub-meta">2023<span>ASEC</span></div>
+            <div class="pub-body"><strong>A. López</strong>, H. Schaub. <em>Object Relative Heading Estimation with
+                Binary Wide Field of View X-Ray Sensing.</em> Huntsville, AL.
+              <div class="pub-links"><span class="pub-status">Presentation only</span></div>
+            </div>
+          </div>
+        </section>
+
+
+
+      </main>
+      <footer style="border-top: 1px solid rgb(228, 223, 211); margin-top: 2rem;">
+        <div
+          style='max-width: 1080px; margin: 0px auto; padding: 2.2rem clamp(1.5rem, 5vw, 4rem) 3rem; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: 0.05em; color: rgb(148, 139, 123);'>
+          <span><span style="color: rgb(163, 82, 127);">◐</span> © Andrea López López · Boulder, CO</span>
+          <span>Last updated September 2026</span>
+        </div>
+      </footer>
+    </div>
+  </div>
+</body>
+
+</html>
